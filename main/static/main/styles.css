@@ -1,0 +1,107 @@
+/* General body styling */
+body {
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    align-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+    /* text-align: center; */
+    margin-left: 2in; /* Apply 1 inch margin on left and right sides of the body */
+    margin-right: 2in;
+    margin-top: 0in;
+    box-sizing: border-box; /* Ensure padding and margins don't affect element width */
+    background-color: white; /* Optional: Light background color for the page */
+}
+
+/* Header styling */
+.header {
+    display: flex; /* Horizontal layout */
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: center; /* Center content vertically */
+    background-color: white; /* Header background color */
+    color: black; /* Text color */
+    padding: 20px 0; /* Add internal spacing within the header */
+    box-sizing: border-box; /* Ensure padding doesn't affect overall width */
+    line-height: 1.25;
+}
+
+/* Black bar separator below the header */
+.separator {
+    width: 100%; /* Full width of the page */
+    height: 2px; /* Thin black bar */
+    background-color: black; /* Dark color for the separator */
+}
+
+/* Left Section: Title styling */
+.title {
+    text-align: left; /* Align text to the left */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* Header Title Styling */
+.title h1 {
+    margin: 0;
+    font-size: 28px; /* Larger size for the name */
+}
+
+.title p {
+    margin: 0;
+    font-size: 16px; /* Subtitle font size */
+    color: #656565; /* Light gray subtitle color */
+}
+
+/* Navigation styling */
+nav {
+    display: flex; /* Horizontal layout for navigation links */
+    gap: 20px; /* Spacing between links */
+}
+
+nav a {
+    color: #000000; /* Link text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline effect on hover */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 1200px) {
+
+    /*min-width: 900px;*/
+
+    .header {
+        flex-direction: column; /* Stack title and nav links vertically */
+        align-items: center; /* Align content to the left */
+        justify-content: center;
+        align-content: center;
+        /*padding: 20px; !* Adjust padding for small screens *!*/
+    }
+
+    /* Left Section: Title styling */
+    .title {
+        text-align: center; /* Align text to the left */
+        white-space: nowrap; /* Prevent text wrapping */
+    }
+
+
+    nav {
+        margin-top: 10px; /* Add spacing above navigation links */
+    }
+
+}
+
+/* Page Content Styling */
+.content {
+    text-align: justify; /* Ensure text in paragraphs is justified */
+    text-justify: inter-word; /* Define justify behavior */
+    margin-top: 20px; /* Add space below the header */
+    line-height: 1.25; /* Improve readability */
+}
+
+.content p {
+       text-align: justify; /* Ensure text in paragraphs is justified */
+       text-justify: inter-word; /* Define justify behavior */
+   }

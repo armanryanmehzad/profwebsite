@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arman Mehzad</title>
+    {% load static %}
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'main/styles.css' %}">
+</head>
+<body>
+    <div class="header">
+        <!-- Left Section: Name and Title -->
+        <div class="title">
+            <h1>Arman Ryan Mehzad</h1>
+            <p>Graduate Student Researcher at The Ohio State University</p>
+        </div>
+
+        <!-- Right Section: Navigation -->
+        <nav>
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'research_page' %}">Research</a>
+            <a href="#">Publications</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </nav>
+    </div>
+
+    <!-- Black bar separator -->
+    <div class="separator"></div>
+
+    <div class="content">
+        <!--{% load static %}
+        <img src="{% static 'images/C9667E8C-062D-4AD1-A968-8B95531D6EF6_1_105_c.jpeg' %}" alt="My Image">-->
+        <p>
+            My name is Arman Ryan Mehzad. I am a thesis-track masters student at The Ohio State University (tOSU) studying Electrical and Computer Engineering, specializing in Solid State Electronics and Photonics (SSEP) focus. My research currently involves the design and fabrication of AlGaN/GaN high electron mobility transistors (HEMTs) for biosensing applications.
+            Before I began my graduate-level classes and studies in SSEP, I worked on two research projects involving non-invasive neuromodulation within the Department of Psychiatry and Behavioral Health and the Department of Electrical and Computer Engineering.
+        </p>
+
+        <p>
+            I received my bachelor's in Electrical and Computer Engineering, specializing in Electrical Engineering from tOSU in May 2025. During my undergraduate education, I contributed to research invovling non-invasive neuromodulation
+        </p>
+    </div>
+</body>
+</html>
