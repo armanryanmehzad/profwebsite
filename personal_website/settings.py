@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-cwch*x2h@*jk0it*qtzrj+k&-0v5qzng#^%=2p*buh0%t2vm0v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.armanmehzad.com']
 
 STATIC_URL = '/static/'
 
