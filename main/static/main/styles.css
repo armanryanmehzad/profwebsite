@@ -93,7 +93,7 @@ nav a:hover {
 
 }
 
-@media (max-width: 300px) {
+@media (min-width: 480px) {
 
     /*min-width: 900px;*/
 
