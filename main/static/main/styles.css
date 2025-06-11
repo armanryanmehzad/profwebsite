@@ -65,27 +65,40 @@ nav a:hover {
 }
 
 /* Responsive Design for Smaller Screens */
-@media (max-width: 1200px) {
+
+@media (min-width: 480px) {
 
     /*min-width: 900px;*/
 
+    /* Header styling */
     .header {
-        flex-direction: column; /* Stack title and nav links vertically */
-        align-items: center; /* Align content to the left */
-        justify-content: center;
-        align-content: center;
-        /*padding: 20px; !* Adjust padding for small screens *!*/
+        display: flex; /* Horizontal layout */
+        justify-content: space-between; /* Space between left and right sections */
+        align-items: center; /* Center content vertically */
+        background-color: white; /* Header background color */
+        color: black; /* Text color */
+        padding: 20px 0; /* Add internal spacing within the header */
+        box-sizing: border-box; /* Ensure padding doesn't affect overall width */
+        line-height: 1.25;
+    }
+
+    /* Black bar separator below the header */
+    .separator {
+        width: 100%; /* Full width of the page */
+        height: 2px; /* Thin black bar */
+        background-color: black; /* Dark color for the separator */
     }
 
     /* Left Section: Title styling */
     .title {
-        text-align: center; /* Align text to the left */
+        text-align: left; /* Align text to the left */
         white-space: nowrap; /* Prevent text wrapping */
     }
 
-
+        /* Navigation styling */
     nav {
-        margin-top: 10px; /* Add spacing above navigation links */
+        display: flex; /* Horizontal layout for navigation links */
+        gap: 20px; /* Spacing between links */
     }
 
     body {
@@ -114,15 +127,31 @@ nav a:hover {
         white-space: nowrap; /* Prevent text wrapping */
     }
 
-    nav {
-        margin-top: 10px; /* Add spacing above navigation links */
-    }
-
     body {
         margin-left: 0.25in; /* Apply 1 inch margin on left and right sides of the body */
         margin-right: 0.25in;
         margin-top: 0in;
     }
+
+    /* Black bar separator below the header */
+    .separator {
+        width: 100%; /* Full width of the page */
+        height: 2px; /* Thin black bar */
+        background-color: black; /* Dark color for the separator */
+    }
+
+    /* Left Section: Title styling */
+    .title {
+        text-align: left; /* Align text to the left */
+        white-space: nowrap; /* Prevent text wrapping */
+    }
+
+        /* Navigation styling */
+    nav {
+        display: flex; /* Horizontal layout for navigation links */
+        gap: 10px; /* Spacing between links */
+    }
+
 
 }
 /* Page Content Styling */
