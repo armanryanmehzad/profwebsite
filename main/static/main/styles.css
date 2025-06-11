@@ -119,8 +119,8 @@ nav a:hover {
     }
 
     body {
-        margin-left: 0in; /* Apply 1 inch margin on left and right sides of the body */
-        margin-right: 0in;
+        margin-left: 0.1in; /* Apply 1 inch margin on left and right sides of the body */
+        margin-right: 0.1in;
         margin-top: 0in;
     }
 
