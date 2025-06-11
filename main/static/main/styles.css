@@ -93,6 +93,35 @@ nav a:hover {
 
 }
 
+@media (max-width: 300px) {
+
+    /*min-width: 900px;*/
+
+    .header {
+        flex-direction: column; /* Stack title and nav links vertically */
+        align-items: center; /* Align content to the left */
+        justify-content: center;
+        align-content: center;
+        /*padding: 20px; !* Adjust padding for small screens *!*/
+    }
+
+    /* Left Section: Title styling */
+    .title {
+        text-align: center; /* Align text to the left */
+        white-space: nowrap; /* Prevent text wrapping */
+    }
+
+    nav {
+        margin-top: 10px; /* Add spacing above navigation links */
+    }
+
+    body {
+        margin-left: 2in; /* Apply 1 inch margin on left and right sides of the body */
+        margin-right: 2in;
+        margin-top: 0in;
+    }
+
+}
 /* Page Content Styling */
 .content {
     text-align: justify; /* Ensure text in paragraphs is justified */
