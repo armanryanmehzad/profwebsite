@@ -68,7 +68,7 @@ nav a:hover {
 }
 
 /* Responsive Design for Smaller Screens */
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
 
     /*min-width: 900px;*/
 
@@ -93,7 +93,7 @@ nav a:hover {
 
 }
 
-@media (min-width: 300px) {
+@media only screen and (max-width: 500px) {
 
     /*min-width: 900px;*/
 
