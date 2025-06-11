@@ -1,17 +1,17 @@
 /* General body styling */
-/*body {*/
-/*    font-family: 'Raleway', sans-serif;*/
-/*    justify-content: center;*/
-/*    align-content: center;*/
-/*    text-align: justify;*/
-/*    text-justify: inter-word;*/
-/*    !* text-align: center; *!*/
-/*    margin-left: 2in; !* Apply 1 inch margin on left and right sides of the body *!*/
-/*    margin-right: 2in;*/
-/*    margin-top: 0in;*/
-/*    box-sizing: border-box; !* Ensure padding and margins don't affect element width *!*/
-/*    background-color: white; !* Optional: Light background color for the page *!*/
-/*}*/
+body {
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    align-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+    /* text-align: center; */
+    margin-left: 2in; /* Apply 1 inch margin on left and right sides of the body */
+    margin-right: 2in;
+    margin-top: 0in;
+    box-sizing: border-box; /* Ensure padding and margins don't affect element width */
+    background-color: white; /* Optional: Light background color for the page */
+}
 
 /* Header styling */
 .header {
@@ -68,7 +68,7 @@ nav a:hover {
 }
 
 /* Responsive Design for Smaller Screens */
-@media (max-width: 1200px) {
+@media (min-width: 481px) {
 
     /*min-width: 900px;*/
 
@@ -91,23 +91,9 @@ nav a:hover {
         margin-top: 10px; /* Add spacing above navigation links */
     }
 
-    body {
-    font-family: 'Raleway', sans-serif;
-    justify-content: center;
-    align-content: center;
-    text-align: justify;
-    text-justify: inter-word;
-    /* text-align: center; */
-    margin-left: 2in; /* Apply 1 inch margin on left and right sides of the body */
-    margin-right: 2in;
-    margin-top: 0in;
-    box-sizing: border-box; /* Ensure padding and margins don't affect element width */
-    background-color: white; /* Optional: Light background color for the page */
-    }
-
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
 
     /*min-width: 900px;*/
 
@@ -130,21 +116,12 @@ nav a:hover {
     }
 
     body {
-    font-family: 'Raleway', sans-serif;
-    justify-content: center;
-    align-content: center;
-    text-align: justify;
-    text-justify: inter-word;
-    /* text-align: center; */
-    margin-left: 0in; /* Apply 1 inch margin on left and right sides of the body */
-    margin-right: 0in;
-    margin-top: 0in;
-    box-sizing: border-box; /* Ensure padding and margins don't affect element width */
-    background-color: white; /* Optional: Light background color for the page */
-}
+        margin-left: 0in; /* Apply 1 inch margin on left and right sides of the body */
+        margin-right: 0in;
+        margin-top: 0in;
+    }
 
 }
-
 /* Page Content Styling */
 .content {
     text-align: justify; /* Ensure text in paragraphs is justified */
