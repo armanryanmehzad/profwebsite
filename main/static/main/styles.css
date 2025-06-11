@@ -6,9 +6,6 @@ body {
     text-align: justify;
     text-justify: inter-word;
     /* text-align: center; */
-    margin-left: 2in; /* Apply 1 inch margin on left and right sides of the body */
-    margin-right: 2in;
-    margin-top: 0in;
     box-sizing: border-box; /* Ensure padding and margins don't affect element width */
     background-color: white; /* Optional: Light background color for the page */
 }
@@ -89,6 +86,12 @@ nav a:hover {
 
     nav {
         margin-top: 10px; /* Add spacing above navigation links */
+    }
+
+    body {
+        margin-left: 2in; /* Apply 1 inch margin on left and right sides of the body */
+        margin-right: 2in;
+        margin-top: 0in;
     }
 
 }
