@@ -1,17 +1,17 @@
 /* General body styling */
-body {
-    font-family: 'Raleway', sans-serif;
-    justify-content: center;
-    align-content: center;
-    text-align: justify;
-    text-justify: inter-word;
-    /* text-align: center; */
-    margin-left: 2in; /* Apply 1 inch margin on left and right sides of the body */
-    margin-right: 2in;
-    margin-top: 0in;
-    box-sizing: border-box; /* Ensure padding and margins don't affect element width */
-    background-color: white; /* Optional: Light background color for the page */
-}
+/*body {*/
+/*    font-family: 'Raleway', sans-serif;*/
+/*    justify-content: center;*/
+/*    align-content: center;*/
+/*    text-align: justify;*/
+/*    text-justify: inter-word;*/
+/*    !* text-align: center; *!*/
+/*    margin-left: 2in; !* Apply 1 inch margin on left and right sides of the body *!*/
+/*    margin-right: 2in;*/
+/*    margin-top: 0in;*/
+/*    box-sizing: border-box; !* Ensure padding and margins don't affect element width *!*/
+/*    background-color: white; !* Optional: Light background color for the page *!*/
+/*}*/
 
 /* Header styling */
 .header {
@@ -67,33 +67,47 @@ nav a:hover {
     text-decoration: underline; /* Underline effect on hover */
 }
 
-/*!* Responsive Design for Smaller Screens *!*/
-/*@media (max-width: 1200px) {*/
+/* Responsive Design for Smaller Screens */
+@media (max-width: 1200px) {
 
-/*    !*min-width: 900px;*!*/
+    /*min-width: 900px;*/
 
-/*    .header {*/
-/*        flex-direction: column; !* Stack title and nav links vertically *!*/
-/*        align-items: center; !* Align content to the left *!*/
-/*        justify-content: center;*/
-/*        align-content: center;*/
-/*        !*padding: 20px; !* Adjust padding for small screens *!*!*/
-/*    }*/
+    .header {
+        flex-direction: column; /* Stack title and nav links vertically */
+        align-items: center; /* Align content to the left */
+        justify-content: center;
+        align-content: center;
+        /*padding: 20px; !* Adjust padding for small screens *!*/
+    }
 
-/*    !* Left Section: Title styling *!*/
-/*    .title {*/
-/*        text-align: center; !* Align text to the left *!*/
-/*        white-space: nowrap; !* Prevent text wrapping *!*/
-/*    }*/
+    /* Left Section: Title styling */
+    .title {
+        text-align: center; /* Align text to the left */
+        white-space: nowrap; /* Prevent text wrapping */
+    }
 
 
-/*    nav {*/
-/*        margin-top: 10px; !* Add spacing above navigation links *!*/
-/*    }*/
+    nav {
+        margin-top: 10px; /* Add spacing above navigation links */
+    }
 
-/*}*/
+    body {
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    align-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+    /* text-align: center; */
+    margin-left: 2in; /* Apply 1 inch margin on left and right sides of the body */
+    margin-right: 2in;
+    margin-top: 0in;
+    box-sizing: border-box; /* Ensure padding and margins don't affect element width */
+    background-color: white; /* Optional: Light background color for the page */
+    }
 
-@media only screen and (max-width: 1100px) {
+}
+
+@media (max-width: 500px) {
 
     /*min-width: 900px;*/
 
@@ -116,12 +130,21 @@ nav a:hover {
     }
 
     body {
-        margin-left: 0in; /* Apply 1 inch margin on left and right sides of the body */
-        margin-right: 0in;
-        margin-top: 0in;
-    }
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    align-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+    /* text-align: center; */
+    margin-left: 0in; /* Apply 1 inch margin on left and right sides of the body */
+    margin-right: 0in;
+    margin-top: 0in;
+    box-sizing: border-box; /* Ensure padding and margins don't affect element width */
+    background-color: white; /* Optional: Light background color for the page */
+}
 
 }
+
 /* Page Content Styling */
 .content {
     text-align: justify; /* Ensure text in paragraphs is justified */
