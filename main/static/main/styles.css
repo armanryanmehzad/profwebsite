@@ -3,7 +3,7 @@
 /* smartphones, Android phones, landscape iPhone */
 @media screen and (min-width: 380px) and (max-width: 1280px) {
     header {
-        background-color: white;
+        background-color: black;
         font-family: 'Raleway', sans-serif;
         display: flex;
         flex-direction: column;
