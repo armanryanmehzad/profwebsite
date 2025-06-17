@@ -1,7 +1,13 @@
 /* https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile */
 
 /**/
-
+body h2 {
+    font-size: 24px;
+    text-align: center;
+}
+body h3 {
+    font-size: 20px;
+}
 
 /* Title & subtitle styling. */
 .title h1 {
