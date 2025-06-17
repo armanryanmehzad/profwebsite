@@ -2,8 +2,6 @@
 # ------------------------------
 from django.shortcuts import render
 from django.http import JsonResponse
-from plotly.graph_objs.layout.shape import Label
-
 
 # ------------------------------
 
