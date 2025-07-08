@@ -38,6 +38,16 @@ nav a:hover {
     font-size: 16px;
 }
 
+img {
+    opacity: 0.1;
+        /*display: block;*/
+        /*!*margin: auto;*!*/
+        /*justify-content: center;*/
+        /*margin-top: 20px;*/
+        /*margin-bottom: 20px;*/
+        /*width: 10%;*/
+    }
+
 /* smartphones, Android phones, landscape iPhone */
 @media screen and (min-width: 100px) and (max-width: 940px) {
     .header {
@@ -78,14 +88,14 @@ nav a:hover {
         margin-top: 0;
     }
 
-    img {
-        display: block;
-        margin: auto;
-        justify-content: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        width: 75%;
-    }
+    /*img {*/
+    /*    display: block;*/
+    /*    margin: auto;*/
+    /*    justify-content: center;*/
+    /*    margin-top: 20px;*/
+    /*    margin-bottom: 20px;*/
+    /*    width: 100%;*/
+    /*}*/
 
 }
 
@@ -128,14 +138,14 @@ nav a:hover {
         margin-top: 0;
     }
 
-    img {
-        display: block;
-        margin: auto;
-        justify-content: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        width: 50%;
-    }
+    /*img {*/
+    /*    display: block;*/
+    /*    margin: auto;*/
+    /*    justify-content: center;*/
+    /*    margin-top: 20px;*/
+    /*    margin-bottom: 20px;*/
+    /*    width: 100%;*/
+    /*}*/
 
 }
 
@@ -181,14 +191,14 @@ nav a:hover {
         margin-top: 0in;
     }
 
-    img {
-        display: block;
-        margin: auto;
-        justify-content: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        width: 50%;
-    }
+    /*img {*/
+    /*    display: block;*/
+    /*    margin: auto;*/
+    /*    justify-content: center;*/
+    /*    margin-top: 20px;*/
+    /*    margin-bottom: 20px;*/
+    /*    width: 100%;*/
+    /*}*/
 
 }
 

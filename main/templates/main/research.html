@@ -9,6 +9,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'main/styles.css' %}">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SZ85D1T2RY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SZ85D1T2RY');
+</script>
 <body>
     <div class="header">
         <!-- Left Section: Name and Title -->
@@ -33,12 +42,22 @@
     <h2>Research</h2>
 
     <h3>AlGaN/GaN Transistor-Based Biosensors</h3>
-    <p>This is the research page.</p>
 
-    <h3>Low-Frequency Ultrasound Neuromodulation</h3>
-    <p>This is the research page.</p>
+    <p>As a graduate student, my research focuses on the development of transistor-based biosensors (bioFETs) that utilize AlGaN/GaN high-electron mobility transistors (HEMTs) to detect and quantify the concentration of biomolecules in solution. These biosensors work by functionalizing the gate of the transistor with antibodies, which causes target biomolecules (and their electrical charge) to accumulate near the gate. The accumulation of these charged molecules on the surface of the gate acts as an applied bias, causing the current output of the transistor to change. This change in current when a solution is applied to the gate is what allows us to determine the concentration of biomolecule in the solution. Our goal is to make biosensors that rapidly and accurately detect analyte presence in solution.</p>
+
+    <p>Through my research, I gained experience with various microfabrication techniques, including electron-beam thin-film metal deposition, ICP reactive-ion etching, photolithography, photoresist (SU-8) process development, and more. I also gained experience with microelectronic characterization and measurement techniques, where I took measurements of fabricated transistors, analyzed the data, and extracted relevant device parameters. I also used TCAD software (Silvaco) to simulate AlGaN/GaN HEMT operation with varying parameters.</p>
+
+    <h3>Low-Frequency Focused Ultrasound Neuromodulation</h3>
+
+    <p>As part of this research, I worked with a group within the Department of Psychiatry and Behavioral Health at Wexner Medical Center to investigate the effect of low-frequency focused ultrasound (LIFU) neuromodulation of the amygdala with fMRI. We specifically investigated the response of ten participants to the Emotional Face Assessment Task (EFAT) before and after stimulation. We found that stimulation of the amygdala with LIFU reduced the activation of regions of the brain associated with social threat processing. More in depth discussion of this research can be found on the <a href="{% url 'publications_page' %}">publications page</a> [1]. </p>
+
+    <p>During this research, I was responsible for the data analysis. I utilized SPM and MarsBaR to collect the first-level data from the fMRI data before conducting the second-level data analysis in Python. I gained a great familiarity with Pandas and Matplotlib, which I have used since in many of my classes and my graduate research. </p>
+
+    <img src="{% static 'images/lifu4.png' %}" alt="Figure from our published LIFU research.">
 
     <h3>Near-Infrared Transcranial Photobiomodulation</h3>
-    <p>This is the research page.</p>
+
+    <p></p>
+
 </body>
 </html>
