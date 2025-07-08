@@ -39,13 +39,13 @@ nav a:hover {
 }
 
 img {
-    opacity: 0.1;
-        /*display: block;*/
-        /*!*margin: auto;*!*/
-        /*justify-content: center;*/
-        /*margin-top: 20px;*/
-        /*margin-bottom: 20px;*/
-        /*width: 10%;*/
+    /*opacity: 0.1;*/
+    display: block;
+    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
     }
 
 /* smartphones, Android phones, landscape iPhone */
