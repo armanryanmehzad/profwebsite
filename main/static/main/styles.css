@@ -58,6 +58,26 @@ nav a:hover {
     width: 100%;
     }
 
+#img2 {
+    /*opacity: 0.1;*/
+    display: block;
+    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+
+#img3 {
+    /*opacity: 0.1;*/
+    display: block;
+    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+
 .image-container {
     display: flex;
     /* You can add further customization like justify-content to control spacing */
