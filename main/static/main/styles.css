@@ -38,7 +38,7 @@ nav a:hover {
     font-size: 16px;
 }
 
-#home {
+.home_img {
     /*opacity: 0.1;*/
     display: block;
     margin: auto;
@@ -48,7 +48,7 @@ nav a:hover {
     width: 10%;
     }
 
-#research {
+.research_img {
     /*opacity: 0.1;*/
     display: block;
     margin: auto;
