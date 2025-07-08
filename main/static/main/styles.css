@@ -68,6 +68,16 @@ nav a:hover {
     width: 100%;
     }
 
+#research_img3 {
+    /*opacity: 0.1;*/
+    display: block;
+    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+
 /* smartphones, Android phones, landscape iPhone */
 @media screen and (min-width: 100px) and (max-width: 940px) {
     .header {
