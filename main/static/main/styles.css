@@ -8,6 +8,13 @@ body h2 {
 body h3 {
     font-size: 20px;
 }
+body h6 {
+    margin: 0.5in;
+    font-size: 14px;
+    color: #a3a3a3;
+    text-align: center;
+    font-weight: normal;
+}
 
 /* Title & subtitle styling. */
 .title h1 {
